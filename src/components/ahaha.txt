@@ -1,0 +1,15 @@
+<div class="sc-AxiKw eSbheu">
+<img src="https://picsum.photos/200/200?a=2">
+<div class="sc-AxhCb eSwYtm">
+<p>Produto 2</p><p>R$200,00</p>
+<button class="sc-AxhUy fxWvvr">Adicionar ao carrinho</button>
+</div>
+</div>
+<div class="sc-AxiKw eSbheu">
+<img src="https://picsum.photos/200/200?a=1">
+<div class="sc-AxhCb eSwYtm">
+<p>Produto legal</p>
+<p>R$123,00</p>
+<button class="sc-AxhUy fxWvvr">Adicionar ao carrinho</button>
+</div>
+</div>
