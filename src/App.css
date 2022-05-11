@@ -41,7 +41,7 @@
   background-clip: padding-box, border-box;
   background-origin: border-box;
  }
- /* css do Home.js */
+                                     /* css do Home.js */
  .home{
    width: 60%;
    border: double 7px transparent;
@@ -71,16 +71,48 @@ border: solid white;
 }
 .mercadoria{
   display: grid;
-grid-template-columns: repeat(2, 1fr);
+grid-template-columns: repeat(3, 1fr);
 gap: 5px;
 padding: 5px;
   margin: 3px;
-  border: solid;
-  
+ 
+  align-content: center;
 }
 .produto{
   display: inline-block;
-  border: solid;
-  width: 90px;
-  padding: 9px;
+  border: 2px solid rgb(227, 228, 228);
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+
+}
+.produto:hover{
+  border: double 7px transparent;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255)), linear-gradient(to right, rgb(0, 255, 213), rgb(99, 30, 226));
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  
+}
+
+
+.imagem-brinquedo{
+  width: 70px;
+  height: 70px;
+}
+
+.bto-comprar{
+  border-radius: 10%;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+ 
+}
+.bto-comprar:hover{
+  border: double 2px transparent;
+  background-image: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255),rgb(255, 255, 255)), linear-gradient(to right, rgb(0, 255, 213), rgb(99, 30, 226));
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+}
+.bto-comprar:active{background-image: linear-gradient(rgb(187, 248, 238),rgb(95, 240, 143),rgb(146, 240, 169)), linear-gradient(to right, rgb(0, 255, 213), rgb(99, 30, 226));
 }
