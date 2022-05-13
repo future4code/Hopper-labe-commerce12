@@ -9,7 +9,7 @@ class Home extends React.Component {
         return (
             <div className="home">
                 <div className="sub-home">
-                    <p>Quantidade de Brinquedos : 20 </p>
+                    <p>Quantidade de Brinquedos: 20 </p>
                     <label>Ordenação:.
                         <select className="seletor">
                             <option value="CRESCENTE">Crescente</option>
