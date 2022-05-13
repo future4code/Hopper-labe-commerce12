@@ -26,8 +26,7 @@ class Home extends React.Component {
                 <div className="mercadoria">
                     {this.state.listas.map(item => {
                         return <Mercadorias key={item.id} item={item} />
-                            
-                      
+
                     })}
                 </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css"
-
+import Brinquedos from "../components/Brinquedos.json"
 // import Brinquedos from "./Brinquedos";
 //import Brinquedo1 from "../imagens/brinquedos/capsula espacial.jpg";
 // import Brinquedo2 from "../imagens/brinquedos/appolo espacial.jpg";
@@ -16,20 +16,21 @@ import "../App.css"
 // import Brinquedo12 from "../imagens/brinquedos/onibus espacial.jpg";
 
 export default function Mercadorias(props) {
-
+console.log(props.item.imagem)
     return (
         
         
                 <div className="produto"title={props.item.nome}>
                         
                         <p>{props.item.nome}</p>
-                        <p><img src={props.item.imagem}/></p>
+                        <img src={props.item.imagem}/>
                         <p>R${props.item.valor}</p>
                         <button className="bto-comprar">Comprar</button>
+              
                 </div>
-        
-      
+  
     );
-
+  
+    
 }
 
