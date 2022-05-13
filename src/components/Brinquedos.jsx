@@ -1,13 +1,17 @@
 import React from "react";
 import "../App.css"
+import Brinquedos from "./Brinquedos"
+
+
 
 function Brinquedos(props) {
     return(
 
     <div className="produto">
         <img className="imagem-brinquedo" src={props.imagem} alt={props.nome}></img>
-        <div className="">
-            <p>{props.nome}</p><p>{props.valor}</p>
+        <div className=""nome={props.lista.nome} valor={props.lista.valor}>
+            <p>{this.props.lista.nome}</p><p>{this.props.lista.valor}</p> 
+            
             <button className="bto-comprar">Comprar</button>
         </div>
     </div>
@@ -18,3 +22,5 @@ function Brinquedos(props) {
 }
 
 export default Brinquedos
+
+
